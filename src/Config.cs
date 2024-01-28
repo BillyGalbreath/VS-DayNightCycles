@@ -40,6 +40,7 @@ public class Config {
     }
 
     private static Config Write(Config config, string path) {
+        GamePaths.EnsurePathExists(GamePaths.ModConfig);
         File.WriteAllText(path, new SerializerBuilder()
                 .WithQuotingNecessaryStrings()
                 .WithNamingConvention(NullNamingConvention.Instance)
