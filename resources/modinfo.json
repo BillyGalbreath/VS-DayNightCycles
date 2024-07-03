@@ -2,7 +2,7 @@
   "type": "code",
   "name": "Day Night Cycles",
   "modid": "daynightcycles",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Control over day and night cycle lengths",
   "website": "https://github.com/BillyGalbreath/VS-DayNightCycles",
   "authors": [ "BillyGalbreath" ],

@@ -23,6 +23,7 @@ public class Config {
     }
 
     public static Config Reload(string filename) {
+        GamePaths.EnsurePathExists(GamePaths.ModConfig);
         string path = Path.Combine(GamePaths.ModConfig, filename);
         return Write(Read(path), path);
     }
